@@ -28,5 +28,5 @@ STEP3で、STEP2で作成した長方形を以下の仕様でコピーする。
 * 垂直の挙動がIllustratorのバージョンによって異なる。
 
 ## 参考
-[イラストレーターの垂直方向移動の数値が逆に行く理由は？](https://okwave.jp/qa/q9233161.html)
+[イラストレーターの垂直方向移動の数値が逆に行く理由は？](https://okwave.jp/qa/q9233161.html)  
 [How to draw a rectangle in millimeters?](https://community.adobe.com/t5/illustrator-discussions/how-to-draw-a-rectangle-in-millimeters/m-p/10213012)

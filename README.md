@@ -1,7 +1,11 @@
 # illustrator
 Script for illustrator 
 
-## 初回　ChatGPTへの指示
+## 使い方
+[スクリプトによる自動処理](https://helpx.adobe.com/jp/illustrator/using/automation-scripts.html)
+
+## 作成時の備忘メモ
+### 初回　ChatGPTへの指示
 
 ```
 以下の仕様で動作する、Illustrator用のJavaScriptを作成してください。
@@ -22,11 +26,11 @@ STEP3で、STEP2で作成した長方形を以下の仕様でコピーする。
 ・STEP4で、STEP2,3で作成した長方形全体と同サイズの長方形を作成してください。
 ```
 
-## 他、考慮が必要だったポイント
+### 他、考慮が必要だったポイント
 * 水平にコピーしてから、コピーしたものを全部垂直に、という指定がうまく解釈できるように伝えづらかった。起点となる　長方形を１STEP内で展開するような指示に変えた。
 * pointからミリへの変換   
 * 垂直の挙動がIllustratorのバージョンによって異なる。
 
-## 参考
+### 参考
 [イラストレーターの垂直方向移動の数値が逆に行く理由は？](https://okwave.jp/qa/q9233161.html)  
 [How to draw a rectangle in millimeters?](https://community.adobe.com/t5/illustrator-discussions/how-to-draw-a-rectangle-in-millimeters/m-p/10213012)
